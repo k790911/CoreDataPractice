@@ -11,9 +11,11 @@
 		D785CBAB2792F2B4008AB4B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785CBAA2792F2B4008AB4B0 /* SceneDelegate.swift */; };
 		D785CBAD2792F2B4008AB4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785CBAC2792F2B4008AB4B0 /* ViewController.swift */; };
 		D785CBB02792F2B4008AB4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D785CBAE2792F2B4008AB4B0 /* Main.storyboard */; };
-		D785CBB32792F2B4008AB4B0 /* CoreDataPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D785CBB12792F2B4008AB4B0 /* CoreDataPractice.xcdatamodeld */; };
+		D785CBB32792F2B4008AB4B0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D785CBB12792F2B4008AB4B0 /* Model.xcdatamodeld */; };
 		D785CBB52792F2B5008AB4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D785CBB42792F2B5008AB4B0 /* Assets.xcassets */; };
 		D785CBB82792F2B5008AB4B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D785CBB62792F2B5008AB4B0 /* LaunchScreen.storyboard */; };
+		D785CBC12792F59A008AB4B0 /* PhoneBook+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785CBBF2792F59A008AB4B0 /* PhoneBook+CoreDataClass.swift */; };
+		D785CBC22792F59A008AB4B0 /* PhoneBook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785CBC02792F59A008AB4B0 /* PhoneBook+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D785CBB42792F2B5008AB4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D785CBB72792F2B5008AB4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D785CBB92792F2B5008AB4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D785CBBF2792F59A008AB4B0 /* PhoneBook+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneBook+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D785CBC02792F59A008AB4B0 /* PhoneBook+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneBook+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		D785CB9C2792F2B4008AB4B0 = {
 			isa = PBXGroup;
 			children = (
+				D785CBBF2792F59A008AB4B0 /* PhoneBook+CoreDataClass.swift */,
+				D785CBC02792F59A008AB4B0 /* PhoneBook+CoreDataProperties.swift */,
 				D785CBA72792F2B4008AB4B0 /* CoreDataPractice */,
 				D785CBA62792F2B4008AB4B0 /* Products */,
 			);
@@ -65,7 +71,7 @@
 				D785CBB42792F2B5008AB4B0 /* Assets.xcassets */,
 				D785CBB62792F2B5008AB4B0 /* LaunchScreen.storyboard */,
 				D785CBB92792F2B5008AB4B0 /* Info.plist */,
-				D785CBB12792F2B4008AB4B0 /* CoreDataPractice.xcdatamodeld */,
+				D785CBB12792F2B4008AB4B0 /* Model.xcdatamodeld */,
 			);
 			path = CoreDataPractice;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			files = (
 				D785CBAD2792F2B4008AB4B0 /* ViewController.swift in Sources */,
 				D785CBA92792F2B4008AB4B0 /* AppDelegate.swift in Sources */,
+				D785CBC12792F59A008AB4B0 /* PhoneBook+CoreDataClass.swift in Sources */,
 				D785CBAB2792F2B4008AB4B0 /* SceneDelegate.swift in Sources */,
-				D785CBB32792F2B4008AB4B0 /* CoreDataPractice.xcdatamodeld in Sources */,
+				D785CBB32792F2B4008AB4B0 /* Model.xcdatamodeld in Sources */,
+				D785CBC22792F59A008AB4B0 /* PhoneBook+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +374,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D785CBB12792F2B4008AB4B0 /* CoreDataPractice.xcdatamodeld */ = {
+		D785CBB12792F2B4008AB4B0 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				D785CBB22792F2B4008AB4B0 /* CoreDataPractice.xcdatamodel */,
 			);
 			currentVersion = D785CBB22792F2B4008AB4B0 /* CoreDataPractice.xcdatamodel */;
-			path = CoreDataPractice.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
